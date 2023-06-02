@@ -1,0 +1,36 @@
+footer {
+  position: fixed;
+  bottom: 0px;
+  border-top: 1px solid seashell;
+  padding-top: 5px;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+.nav__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 3px 0 3px;
+  width: 100vw;
+  cursor: pointer;
+}
+
+.nav__icons__des {
+  margin-top: 2px;
+  font-size: 1px;
+  font-weight: bold;
+  transform: scale(0.7);
+}
+
+.nav__icons__img {
+  width: 20px;
+}
