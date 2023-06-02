@@ -6,7 +6,7 @@ body {
 }
 
 .media-info {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -14,13 +14,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
   background-color: rgb(255, 0, 0);
   color: white;
+  font-size: larger;
 }
 
-@media screen and (max-width: 170px) {
+@media screen and (min-width: 520px) {
   .media-info {
-    opacity: 1;
+    display: none;
   }
 }

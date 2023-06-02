@@ -8,7 +8,7 @@ header {
   padding: 10px 10px 0 10px;
 }
 .info__time {
-  font-size: 10px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -18,7 +18,7 @@ header {
 
 .info__icon img {
   margin: 0 3px 0 3px;
-  width: 10px;
+  width: 30px;
 }
 
 .menu {
@@ -31,15 +31,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 50px;
   font-weight: bold;
 }
 
 .menu__location img {
-  width: 15px;
+  width: 50px;
   display: flex;
   align-items: center;
-  padding-top: 3px;
+  padding-top: 12px;
 }
 
 .menu__icons {
@@ -49,6 +49,6 @@ header {
 }
 
 .menu__icons img {
-  margin-left: 5px;
-  width: 15px;
+  margin-left: 20px;
+  width: 50px;
 }
